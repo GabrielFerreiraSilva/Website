@@ -1,0 +1,21 @@
+.main-header{
+    color: var(--font-color1);
+    font-family: var(--font1);
+    background-color: var(--background-color1);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.main-header .btn-menu{
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.main-header .text-menu{
+    font-size: 28px;
+    font-weight: 600;
+    padding-left: 20px;
+    cursor: default;
+}
