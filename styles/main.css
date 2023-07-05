@@ -16,7 +16,6 @@
 .sidebar-container.expand ~ .main-container{
     left: 250px;
     width: calc(100% - 250px);
-    position: fixed;
 }
 
 .main-container .post-container{

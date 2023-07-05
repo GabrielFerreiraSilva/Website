@@ -18,19 +18,11 @@
     .main-container .post-container, .main-container .comment-container, .main-container .comment-separator{
         width: 750px;
     }
-
-    .sidebar-container.expand ~ .main-container{
-        position: fixed;
-    }
 }
 
 @media screen and (max-width: 850px){
     .main-container .post-container, .main-container .comment-container, .main-container .comment-separator{
         width: 500px;
-    }
-
-    .sidebar-container.expand ~ .main-container{
-        position: fixed;
     }
 }
 
@@ -60,5 +52,19 @@
         left: 0;
         width: 100%;
     }
-}
 
+    .main-header{
+        left: 0;
+        width: 100%;
+    }
+
+    .main-header .header-btn-menu{
+        display: flex;
+        padding-left: 20px;
+    }
+
+    .main-header .text-menu{
+        position: relative;
+        left: 70px;
+    }
+}
