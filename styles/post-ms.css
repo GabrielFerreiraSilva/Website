@@ -1,0 +1,21 @@
+@media screen and (max-width: 1100px){
+    .main-container .post-container, .main-container .comment-container, .main-container .comment-separator{
+        width: 750px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .main-container .post-container, .main-container .comment-container, .main-container .comment-separator{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 590px){
+    .main-container .post-container, .main-container .comment-container, .main-container .comment-separator{
+        width: calc(100% - 20px);
+    }
+
+    .sidebar-container.expand ~ .main-container .post-container, .main-container .comment-container{
+        display: none;
+    }
+}

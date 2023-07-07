@@ -1,0 +1,68 @@
+.main-container{
+    display: flex;
+    background-color: var(--background-color2);
+    position: absolute;
+    top: 60px;
+    left: 70px;
+    width: calc(100% - 70px);
+    min-height: calc(100% - 60px);
+    transition: var(--transition1);
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font1);
+    color: var(--font-color1);
+    padding-bottom: 20px;
+    overflow-y: hidden;
+}
+
+.sidebar-container.expand ~ .main-container{
+    left: 250px;
+    width: calc(100% - 250px);
+}
+
+.main-container .post-container{
+    background-color: var(--background-color1);
+    width: 1000px;
+    min-height: 200px;
+    margin: 50px 0 20px 0;
+    border-radius: 15px 0px 15px 0px;
+    padding: 20px 15px 15px 15px;
+}
+
+.main-container .post-container .post-text{
+    margin-top: 20px;
+    font-size: 1.3em;
+    padding: 5px;
+    border-top: 1px solid var(--background-color3);
+}
+
+.main-container .comment-container{
+    background-color: var(--background-color1);
+    width: 1000px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px 0 10px 0;
+}
+
+.main-container .comment-separator{
+    display: flex;
+    height: 30px;
+    width: 1000px;
+    margin-bottom: 30px;
+    cursor: default;
+}
+
+.main-container .comment-separator .separator-text{
+    width: 90px;
+}
+
+.main-container .comment-separator .separator-line{
+    border-top: 1px solid var(--background-color3);
+    width: calc(100% - 100px);
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.main-container .comment-container .comment-text{
+    font-size: 1.3em;
+}

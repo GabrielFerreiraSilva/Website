@@ -1,0 +1,21 @@
+@media screen and (max-width: 1100px){
+    .main-container .preview-container{
+        width: 750px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .main-container .preview-container{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 590px){
+    .main-container .preview-container{
+        width: calc(100% - 20px);
+    }
+
+    .sidebar-container.expand ~ .main-container .preview-container{
+        display: none;
+    }
+}
